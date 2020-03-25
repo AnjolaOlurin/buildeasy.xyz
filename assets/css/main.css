@@ -1,0 +1,130 @@
+body, 
+html {
+	margin: 0 auto;
+}
+
+/* font-family: 'Quicksand', sans-serif; */
+body { font-family: 'Open Sans', sans-serif; }
+
+header {
+	display: inline-block;
+	height: auto;
+	min-height: 60px;
+	width: 100%;
+	border-bottom: 3px solid #EA2828;
+}
+
+li.nav-item a { 
+	color: #535C7B; 
+	font-weight: 600;
+	transition: .5s ease-in-out;
+}
+
+li.nav-item a:hover,
+li.nav-item a.active {
+	color: #000000; 
+}
+
+.banner {
+	display: inline-block;
+	height: 500px;
+}
+
+section.sub-banner {
+	display: inline-block;
+	height: auto;
+	min-height: 300px;
+	width: 100%;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.button-title {
+	display: inline-table;
+	height: auto;
+	width: 900px;
+	font-size: 90px;
+	font-weight: 600;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 165px;
+	color: #FFFFFF;
+	border-radius: 10px 10px 0px 0px;
+	background-color: #369AF0;
+}
+
+section.steps {
+	display: inline-block;
+	height: auto;
+	min-height: 300px;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #E1E1E1;
+	text-align: center;
+}
+
+.step-image {
+	display: inline-table;
+	height: 250px;
+}
+
+ul.step-list li {
+	list-style-image: url('../images/bullet.png');
+	padding-left: 25px;
+	list-style-position: outside;
+}
+
+section.contact {
+	display: inline-block;
+	height: auto;
+	min-height: 400px;
+	width: 100%;
+	background-color: #369AF0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+input.form-control,
+textarea.form-control {
+	border: 1px solid #FFFFFF;
+	background-color: transparent;
+	display: inline-table;
+}
+input.form-control::placeholder,
+textarea.form-control::placeholder {
+	color: #FFFFFF;
+}
+
+.btn-stretch {
+	background-color: #FFFFFF;
+	color: #369AF0;
+	height: auto;
+	width: auto;
+	font-weight: 600;
+	padding: 12px 150px;
+}
+
+.bold { font-weight: 800; }
+
+footer {
+	display: inline-block;
+	height: auto;
+	width: 100%;
+	min-height: 300px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div.footer-bottom {
+	height: auto;
+	width: 100%;
+	min-height: 50px;
+	background-color: #369AF0;
+	margin-top: 30px;
+	padding-top: 10px;
+}
+
+ul.header-phone li {
+	display: block;
+	font-size: 14px;
+	color: #EA2828;
+}
