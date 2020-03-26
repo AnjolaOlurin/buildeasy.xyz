@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Buildeazy.xyz</title>    
+	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./assets/libraries/fontawesome-free-5.13.0-web/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./assets/libraries/bootstrap-4.4.1-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/custom.css">
@@ -14,28 +20,27 @@
 	<header>
 		<div class="container-fluid">
 			<div class="row">
-			    <div class="col-3 pt-3">
+			    <div class="col-sm-12 col-md-3 col-lg-3 pt-3">
 					<img src="./assets/images/logo.svg">
 			    </div>
-			    <div class="col-6 pt-3">
-					<ul class="nav justify-content-center">
-						<li class="nav-item">
-							<a class="nav-link active" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">About us</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact us</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Our Services</a>
-						</li>
-					</ul>
+			    <div class="col-sm-12 col-md-6 col-lg-6 pt-3">
+			    	<nav class="navbar navbar-expand-lg navbar-light">
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
+					  <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+					    <div class="navbar-nav">
+					      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+					      <a class="nav-item nav-link" href="#">About us</a>
+					      <a class="nav-item nav-link" href="#">Contact us</a>
+					      <a class="nav-item nav-link" href="#">Our Services</a>
+					    </div>
+					  </div>
+					</nav>
 			    </div>
-			    <div class="col-3 pt-2">
+			    <div class="col-sm-12 col-md-3 col-lg-3 hidden-sm-down pt-2">
 					<ul class="header-phone text-right">
-						<li>0807-109-8666</li>
+						<li> <span class="pr-2"><i class="fas fa-phone-square-alt"></i></span> 0807-109-8666</li>
 						<li>0814-960-3917</li>
 						<li>0904-375-9345</li>
 					</ul>
@@ -50,15 +55,15 @@
 	    <li data-target="#prev" data-slide-to="0" class="active"></li>
 	    <li data-target="#next" data-slide-to="1"></li>
 	  </ol>
-	  <div class="carousel-inner banner">
-	    <div class="carousel-item active">
-	      <img src="./assets/images/slide-1.jpg" class="d-block w-100" alt="...">
+	  <div class="carousel-inner">
+	    <div class="carousel-item banner active">
+	      <img src="./assets/images/slider.png" class="d-block w-100" alt="...">
 	      <div class="carousel-caption d-none d-md-block">
 	        <p>Amazing Deal for suppliers</p>
 	        <h5>Grow your business instantly</h5>
 	      </div>
 	    </div>
-	    <div class="carousel-item">
+	    <div class="carousel-item banner">
 	      <img src="./assets/images/slide-2.jpg" class="d-block w-100" alt="...">
 	      <div class="carousel-caption d-none d-md-block">
 	        <p>Amazing Deal for suppliers</p>
@@ -83,7 +88,7 @@
 	<section class="steps pb-5">
 		<div class="container text-left">
 		  <div class="row pt-4">
-		    <div class="col-6 pt-4">
+		    <div class="col-sm-12 col-md-6 col-lg-6 pt-5">
 		    	<h3 class="text-bold">REGISTER</h3>
 		    	<ul class="step-list">
 		    		<li>Fill our form offline or online</li>
@@ -91,15 +96,15 @@
 		    		<li>Fill your banking details</li>
 		    	</ul>
 		    </div>
-		    <div class="col-6">
+		    <div class="col-sm-12 col-md-6 col-lg-6">
 		    	<img src="./assets/images/vector-1.png" class="step-image">
 		    </div>
 		  </div>
 		  <div class="row pt-4">
-		    <div class="col-6">
+		    <div class="col-sm-12 col-md-6 col-lg-6">
 		    	<img src="./assets/images/vector-2.png" class="step-image">
 		    </div>
-		    <div class="col-6 pt-4">
+		    <div class="col-sm-12 col-md-6 col-lg-6 pt-5">
 		    	<h3 class="text-bold">UPLOAD YOUR PRODUCTS</h3>
 		    	<ul class="step-list">
 		    		<li>Learn how to upload your products online through our step by step videos</li>
@@ -109,13 +114,13 @@
 		    </div>
 		  </div>
 		  <div class="row pt-4">
-		    <div class="col-6">
+		    <div class="col-sm-12 col-md-6 col-lg-6 pt-5">
 		    	<h3 class="text-bold">START SELLING</h3>
 		    	<ul class="step-list">
 		    		<li>See orders and cash flowing in without stress</li>
 		    	</ul>
 		    </div>
-		    <div class="col-6">
+		    <div class="col-sm-12 col-md-6 col-lg-6">
 		    	<img src="./assets/images/vector-3.png" class="step-image">
 		    </div>
 		  </div>
@@ -136,7 +141,7 @@
 				      <input type="password" class="form-control" placeholder="Phone Number">
 				    </div>
 				</div>
-				<div class="form-row mt-2">
+				<div class="form-row mt-4">
 				    <div class="form-group col-md-6">
 				      <input type="email" class="form-control" placeholder="Company Name">
 				    </div>
@@ -144,7 +149,7 @@
 				      <input type="password" class="form-control" placeholder="Where are you located">
 				    </div>
 				</div>
-				<div class="form-row mt-2">
+				<div class="form-row mt-4">
 				    <div class="form-group col-md-6">
 				      <input type="email" class="form-control" placeholder="Email Address">
 				    </div>
@@ -228,6 +233,18 @@
 					  </li>
 					</ul>
 			    </div>
+			    <div class="col-sm-3 pt-3">
+			      <ul class="nav flex-column">
+					  <li class="nav-item">
+					    <h6>Find us on Social Media</h6>
+					    <div class="socialicon">
+					    	<button type="button" class="btn btn-primary btn-circle btn-sm"><i class="fab fa-google-plus"></i></button>
+					    	<button type="button" class="btn btn-primary btn-circle btn-sm"><i class="fab fa-facebook"></i></button>
+					    	<button type="button" class="btn btn-primary btn-circle btn-sm"><i class="fab fa-twitter-square"></i></button>
+					    </div>
+					  </li>
+					</ul>
+			    </div>
 			</div>
 		</div>
 		<div class="footer-bottom text-center">
@@ -236,8 +253,9 @@
 	</footer>
 	<!-- End Footer -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="./assets/js/app.js"></script>
 <script src="./assets/libraries/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+<script src="./assets/libraries/fontawesome-free-5.13.0-web/js/all.min.js"></script>
+<script src="./assets/js/app.js"></script>
 <script src="./assets/js/custom.js"></script>
 </body>
 </html>

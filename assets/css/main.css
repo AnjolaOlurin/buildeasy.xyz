@@ -14,14 +14,18 @@ header {
 	border-bottom: 3px solid #EA2828;
 }
 
-li.nav-item a { 
+a.nav-item,
+a.nav-link,
+a.nav-link.active { 
 	color: #535C7B; 
 	font-weight: 600;
+	font-size: 16px;
 	transition: .5s ease-in-out;
 }
 
-li.nav-item a:hover,
-li.nav-item a.active {
+a.nav-link:hover,
+a.nav-item:hover,
+a.nav-item.active {
 	color: #000000; 
 }
 
@@ -33,7 +37,8 @@ li.nav-item a.active {
 section.sub-banner {
 	display: inline-block;
 	height: auto;
-	min-height: 300px;
+	min-height: auto;
+	max-height: 300px;
 	width: 100%;
 	background-color: #FFFFFF;
 	text-align: center;
@@ -128,3 +133,102 @@ ul.header-phone li {
 	font-size: 14px;
 	color: #EA2828;
 }
+
+.btn-circle.btn-sm { 
+    width: 30px; 
+    height: 30px; 
+    padding: 2px 0px; 
+    border-radius: 15px; 
+    font-size: 14px; 
+    text-align: center; 
+    margin-right: 12px;
+    margin-top: 2px;
+} 
+.btn-circle.btn-md { 
+    width: 50px; 
+    height: 50px; 
+    padding: 7px 10px; 
+    border-radius: 25px; 
+    font-size: 10px; 
+    text-align: center; 
+} 
+.btn-circle.btn-xl { 
+    width: 70px; 
+    height: 70px; 
+    padding: 10px 16px; 
+    border-radius: 35px; 
+    font-size: 12px; 
+    text-align: center; 
+} 
+
+.nav-item h6 {
+	padding-left: 15px;
+	font-weight: 600;
+}
+
+.nav-item .socialicon { padding-left: 15px; }
+
+@media screen and (max-height: 450px) {
+	.header-phone { display: none; }
+	.banner {
+		display: inline-block;
+		height: 200px;
+	}
+	.button-title {
+		display: inline-table;
+		height: auto;
+		width: 320px;
+		font-size: 38px;
+		font-weight: 600;
+		font-family: 'Quicksand', sans-serif;
+		text-align: center;
+		text-transform: uppercase;
+		margin-top: 50px;
+		color: #FFFFFF;
+		border-radius: 10px 10px 0px 0px;
+		background-color: #369AF0;
+	}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.header-phone { display: none; }
+	.banner {
+		display: inline-block;
+		height: 250px;
+	}
+	.btn-stretch {
+		background-color: #FFFFFF;
+		color: #369AF0;
+		height: auto;
+		width: auto;
+		font-weight: 600;
+		padding: 8px 110px;
+	}
+	.button-title {
+		display: inline-table;
+		height: auto;
+	    width: 330px;
+	    font-size: 38px;
+		font-weight: 600;
+		font-family: 'Quicksand', sans-serif;
+		text-align: center;
+		text-transform: uppercase;
+		margin-top: 60px;
+		color: #FFFFFF;
+		border-radius: 10px 10px 0px 0px;
+		background-color: #369AF0;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
